@@ -8,5 +8,4 @@ export class SampleAppStack extends cdk.Stack {
       encryption: s3.BucketEncryption.KMS_MANAGED
     });
   }
-
 }
