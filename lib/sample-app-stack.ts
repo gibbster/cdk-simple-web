@@ -7,6 +7,5 @@ export class SampleAppStack extends cdk.Stack {
     const bucket = new s3.Bucket(this, 'MyBucket', {
       encryption: s3.BucketEncryption.KMS_MANAGED
     });
-
   }
 }
